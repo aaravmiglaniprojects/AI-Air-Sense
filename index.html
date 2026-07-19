@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AirSense AI</title>
+
+    <link rel="stylesheet" href="../static/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav>
+
+    <div class="logo">
+        🌫 AirSense AI
+    </div>
+
+    <ul>
+
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#dashboard">Dashboard</a></li>
+
+    </ul>
+
+</nav>
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>
+
+            AI Powered Air Quality Prediction for India
+
+        </h1>
+
+        <p>
+
+            Monitor current air quality, predict future AQI, and receive AI-powered health recommendations for every state in India.
+
+        </p>
+
+        <button>
+
+            Explore Dashboard
+
+        </button>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="https://cdn-icons-png.flaticon.com/512/4144/4144797.png" alt="Air">
+
+    </div>
+
+</section>
+
+<section id="dashboard">
+
+    <h2 class="title">Live Air Quality Dashboard</h2>
+
+    <div class="search-container">
+    <input
+        type="text"
+        id="citySearch"
+        placeholder="🔍 Search for a city..."
+        onkeyup="searchCity()">
+    </div>
+
+    <div class="cards" id="cityCards">
+
+    </div>
+
+</section>
+<footer>
+
+<p>
+
+© 2026 AirSense AI | Made by Aarav Miglani
+
+</p>
+
+</footer>
+<script src="../static/js/script.js"></script>
+
+</body>
+</html>
